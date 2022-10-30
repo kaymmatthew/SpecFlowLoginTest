@@ -1,0 +1,9 @@
+{
+  "Url": {
+    "DemoQaUrl": "http://demoqa.com",
+    "AutoPracticeUrl": "http://automationpractice.com/"
+  },
+  "time": {
+    "timeOut": "00:00:30"
+  }
+}
