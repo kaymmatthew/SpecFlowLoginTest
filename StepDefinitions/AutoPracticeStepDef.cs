@@ -51,8 +51,6 @@ namespace SpecFlowLoginTest.StepDefinitions
         {
             var IsItemQtyDisplayed = autoPracticeHomePage.GetItemQty();
             Assert.IsTrue(IsItemQtyDisplayed);
-            //var actualVlaue = autoPracticeHomePage.GetItemQty();
-            //Assert.IsTrue(actualVlaue.Contains((expectedValue).ToString()));
         }
 
         [Then(@"Following are the price breakdown of the selected item")]
@@ -64,9 +62,6 @@ namespace SpecFlowLoginTest.StepDefinitions
             //Assert.AreEqual(tableDetails.Totalshipping, priceBreakDown[1]);
             //Assert.AreEqual(tableDetails.Total, priceBreakDown[2]);
             //Assert.AreEqual(tableDetails.Tax, priceBreakDown[3]);
-
-            //bool IsPriceBreakDownEquls = autoPracticeHomePage.GetPriceBreakDown(table);
-            //Assert.IsTrue(IsPriceBreakDownEquls);
 
             dynamic tableDetails = table.CreateDynamicInstance();
             List<dynamic> items = new List<dynamic>();

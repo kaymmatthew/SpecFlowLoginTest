@@ -77,7 +77,6 @@ namespace SpecFlowLoginTest.Pageobjects
             Assert.AreEqual(tableDetails.Tax, strings[3]);
 
             return true;
-
         }
         public void ClickAddToCartButton()
         {
